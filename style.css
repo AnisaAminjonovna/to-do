@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+form{
+    max-width: 600px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+form input, form button{
+    width: 80%;
+    padding: 8px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: 1px solid grey;
+}
+form button{
+    width: 20%;
+}
+
+.list{
+    /* border: 1px solid rgb(135, 35, 35); */
+    max-width: 600px;
+    margin: auto;
+    /* justify-content: space-between; */
+
+}
+.list li{
+    justify-content: space-between;
+    display: flex;
+    box-shadow: 0 0 8px grey;
+    padding: 1rem;
+    border-radius: 8px;
+    margin: 10px 0;
+    gap: 1rem;
+
+}
